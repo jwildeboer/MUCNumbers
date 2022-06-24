@@ -1,5 +1,15 @@
 # MUCNumbers
-Collected Munich Corona numbers from 2020-02-28 until today.
+
+Collected Munich Corona numbers from 2020-02-28 until today. Updated daily. 
+
+### Sources
+
+These numbers are sourced from
+
+- RKI
+- LGL
+- City of Munich
+- LMU StaBLab
 
 ### ChangeLog
 
@@ -21,7 +31,7 @@ Collected Munich Corona numbers from 2020-02-28 until today.
 
 ### Columns in the CSV File
 
-| Column | Description |
+| COLUMN | DESCRIPTION |
 | --- | --- |
 | Date | Date |
 | Day | Readable date |
