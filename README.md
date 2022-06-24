@@ -7,9 +7,12 @@ Collected Munich Corona numbers from 2020-02-28 until today. Updated daily.
 These numbers are sourced from
 
 - RKI
-- LGL
-- City of Munich
-- LMU StaBLab
+  - [Source 1 for recovered numbers](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/45258e51f57d43efb612f700a876ae8f_0/explore?filters=eyJMYW5ka3JlaXMiOlsiU0sgTfxuY2hlbiJdfQ%3D%3D)
+  - [Source 2 for total case numbers](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/6d78eb3b86ad4466a8e264aa2e32a2e4_0/explore?filters=eyJCdW5kZXNsYW5kSWQiOls5LDldLCJBZG1Vbml0SWQiOls5MTYyLDkxNjJdfQ%3D%3D)
+  - [Source 3 for vaccination numners](https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland)
+- [LGL](https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm#) for hospital and test numbers
+- [City of Munich](https://stadt.muenchen.de/infos/corona-fallzahlen-muenchen.html) for Munich specific hospital and vaccination numbers
+- [LMU StaBLab](https://corona.stat.uni-muenchen.de/nowcast/) for Nowcast, R(t) and detailed hospitalisation data with corrections
 
 The daily CSV is exported from [this spreadsheet](https://www.icloud.com/numbers/0tPTegqlj4Q2SZ7PysUbTt-gQ#MUCNumbersCorona) which contains all the formulas and adds a lot of nice looking graphs.
 
