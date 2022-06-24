@@ -32,7 +32,7 @@ Collected Munich Corona numbers from 2020-02-28 until today.
 | RKI New Infections | New infections per day from RKI |
 | Diff same day last week | Difference between same day this and last week (%) |
 | Active Cases (change) | Change in active cases compared to day before |
-| Recovered (change) | | Change in recovered compared to day before |
+| Recovered (change) | Change in recovered compared to day before |
 | Death (change) | Change in # of deaths compared to day before |
 | RKI 7 day sum | 7 day sum using RKI new infection |
 | DIFF 7DI | Difference 7 Day Incidence corrected/uncorrected |
@@ -80,7 +80,7 @@ Collected Munich Corona numbers from 2020-02-28 until today.
 | MUC 1st Vacc% | Percentage of poulation with 1st vaccine in Munich |
 | MUC 2nd Vacc Total | Total of 2nd vaccination Munich |
 | MUC 2nd Vacc Day | 2nd vaccination administered per day in Munich | Percentage of poulation with 2nd vaccine in Munich |
-| MUC 2nd Vacc% |
+| MUC 2nd Vacc% | Percentage of poulation with 2nd vaccine in Munich |
 | MUC 3rd Vacc Total | Total of 3rd vaccination Munich |
 | MUC 3rd Vacc Day | 3rd vaccination administered per day in Munich |
 | MUC 3rd Vacc% | Percentage of poulation with 3rd  vaccine in Munich |
