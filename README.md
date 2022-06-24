@@ -29,11 +29,15 @@ Collected Munich Corona numbers from 2020-02-28 until today.
 | Active Cases | Current active cases |
 | MUC Recovered | Total sum of recovered people |
 | Deaths (sum) | Total number of deaths |
+| MUC New Infections | New infections per day from City of Munich (no more updates since 2022-06-10) |
+| Correction | (obsolete) |
 | RKI New Infections | New infections per day from RKI |
+| Diff MUC RKI | Difference between Munich and RKI numbers (no more updates since 2022-06-10) |
 | Diff same day last week | Difference between same day this and last week (%) |
 | Active Cases (change) | Change in active cases compared to day before |
 | Recovered (change) | Change in recovered compared to day before |
 | Death (change) | Change in # of deaths compared to day before |
+| MUC 7 Day sum | 7 day sum with numbers of City of Munich (no more updates since 2022-06-10) |
 | RKI 7 day sum | 7 day sum using RKI new infection |
 | DIFF 7DI | Difference 7 Day Incidence corrected/uncorrected |
 | RKI 7 Day Incidence | Corrected RKI Incidence |
@@ -46,6 +50,7 @@ Collected Munich Corona numbers from 2020-02-28 until today.
 | Beds | # of hospital beds with COVID patients in Munich |
 | ICU | # of intensive care beds with COVID patients in Munich |
 | IMC | # of intermediate medical care beds with COVID patients in Munich |
+| Diff 7 Day Incidence | Difference between Munich and RKI 7 day incidence (no more updates since 2022-06-10) |
 | Naive R7 | Total cases of last 7 days divided by total of 7 days before |
 | Naive R4 | Total cases of last 4 days divided by total of 4 days before |
 | Diff 7D DoD | Change of 7 day sum compared to day before (%) |
@@ -53,6 +58,7 @@ Collected Munich Corona numbers from 2020-02-28 until today.
 | Var Lab WoW | Difference in PCR Tests compared to week before |
 | Active WoW | Change in Active Cases compared to week before |
 | RKI Total | Total sum of infected with RKI numbers |
+| Diff Total | Difference between infection numbers Munich and RKI (no more updates since 2022-06-10) |
 | RKI 7D Diff last week | Difference current 7 Day Sum to week before |
 | 7D avg weekly chg | 7 Day average of weekly change |
 | BAV 1st Vacc Total | Total of 1st vaccination Bavaria |
