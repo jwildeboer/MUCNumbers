@@ -11,6 +11,10 @@ These numbers are sourced from
 - City of Munich
 - LMU StaBLab
 
+The daily CSV is exported from [this spreadsheet](https://www.icloud.com/numbers/0tPTegqlj4Q2SZ7PysUbTt-gQ#MUCNumbersCorona) which contains all the formulas and adds a lot of nice looking graphs.
+
+At around 15:00 CET all updates should be added and the export is run. The new file will be committed here and the previous file will be moved to the folder **archives**. 
+
 ### ChangeLog
 
 | DATE | CHANGE |
