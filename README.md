@@ -1,6 +1,25 @@
 # MUCNumbers
 Collected Munich Corona numbers from 2020-02-28 until today.
 
+### ChangeLog
+
+| DATE | CHANGE |
+| --- | --- |
+| 2020-06-01 | LGL added daily test numbers |
+| 2020-09-30 | City of Munich adds hospital numbers |
+| 2020-12-27 | LGL adds vaccination numbers |
+| 2021-01-09 | City of Munich adds vaccination numbers |
+| 2021-08-31 | LGL adds hospital numbers |
+| 2022-04-10 | City of Munich adds 4th vaccination |
+| 2022-04-28 | RKI changed method of counting for vaccinations, shifting numbers from first to 2nd/3rd vaccination. RKI also added data on 4th vaccination |
+| 2022-04-29 | LGL no longer reports numbers to RKI on weekend and bank holidays.  |
+| 2022-05-01 | RKI no longer offers granular data in their excel sheet, only total sums of vaccinations |
+| 2022-05-02 | LGL no longer offers daily test numbers, only weekly updates on Thursday |
+| 2022-06-13 | City no longer reports own numbers, only RKI numbers. No more numbers on Active Cases, recovered, corrections. So it has become impossible to calculate a 7 day incidence with the city numbers. |
+| 2022-06-21 | Added more 7d hospital numbers from RKI |
+| 2022-06-22 | Unexplained big changes in vaccination numbers Bavaria |
+
+### Columns in the CSV File
 
 | Column | Description |
 | --- | --- |
@@ -31,50 +50,49 @@ Collected Munich Corona numbers from 2020-02-28 until today.
 | Naive R4 | Total cases of last 4 days divided by total of 4 days before |
 | Diff 7D DoD | Change of 7 day sum compared to day before (%) |
 | Diff 7D WoW | Change of 7 day sum compared to week before (%) |
-| Var Lab WoW | |
-| Active WoW |
-| RKI Total |
-| Diff Total |
-| RKI 7D Diff last week |
-| 7D avg weekly chg |
-| BAV 1st Vacc Total |
-| BAV 2nd Vacc Total |
-| BAV 3rd Vacc Total |
-| BAV 4th Vacc Total |
-| BAV 1st Vacc % |
-| BAV 1st Vacc Day |
-| BAV 1st Vacc Avg |
-| BAV 1st Vacc 7D |
-| BAV 2nd Vacc % |
-| BAV 2nd Vacc Day |
-| BAV 2nd Vacc Avg |
-| BAV 2nd Vacc 7D |
-| BAV 3rd Vacc % |
-| BAV 3rd Vacc Day |
-| BAV 3rd Vacc Avg |
-| BAV 3rd Vacc 7D |
-| BAV 4th Vacc % |
-| BAV 4th Vacc Day |
-| BAV 4th Vacc Avg |
-| BAV 4th Vacc 7D |
-| MUC 1st Vacc Total |
-| MUC 1st Vacc Day |
-| MUC 1st Vacc% |
-| MUC 2nd Vacc Total |
-| MUC 2nd Vacc Day |
+| Var Lab WoW | Difference in PCR Tests compared to week before |
+| Active WoW | Change in Active Cases compared to week before |
+| RKI Total | Total sum of infected with RKI numbers |
+| RKI 7D Diff last week | Difference current 7 Day Sum to week before |
+| 7D avg weekly chg | 7 Day average of weekly change |
+| BAV 1st Vacc Total | Total of 1st vaccination Bavaria |
+| BAV 2nd Vacc Total | Total of 2nd vaccination Bavaria |
+| BAV 3rd Vacc Total | Total of 3rd (booster)  vaccination Bavaria |
+| BAV 4th Vacc Total | Total of 4th (2nd booster) vaccination Bavaria |
+| BAV 1st Vacc % | Percentage of poulation with 1st vaccine in Bavaria |
+| BAV 1st Vacc Day | 1st vaccination administered per day in Bavaria |
+| BAV 1st Vacc Avg | 7 day average of 1st vaccination in Bavaria |
+| BAV 1st Vacc 7D | 7 day sum of 1st vaccination in Bavaria |
+| BAV 2nd Vacc % | Percentage of poulation with 2nd vaccine in Bavaria |
+| BAV 2nd Vacc Day | 2nd vaccination administered per day in Bavaria |
+| BAV 2nd Vacc Avg | 7 day average of 2nd vaccination in Bavaria |
+| BAV 2nd Vacc 7D | 7 day sum of 2nd vaccination in Bavaria |
+| BAV 3rd Vacc % | Percentage of poulation with 3rd vaccine in Bavaria |
+| BAV 3rd Vacc Day | 3rd vaccination administered per day in Bavaria |
+| BAV 3rd Vacc Avg | 7 day average of 3rd vaccination in Bavaria |
+| BAV 3rd Vacc 7D | 7 day sum of 3rd vaccination in Bavaria |
+| BAV 4th Vacc % | Percentage of poulation with 4th vaccine in Bavaria |
+| BAV 4th Vacc Day | 4th vaccination administered per day in Bavaria |
+| BAV 4th Vacc Avg | 7 day average of 4th vaccination in Bavaria |
+| BAV 4th Vacc 7D | 7 day sum of 4th vaccination in Bavaria |
+| MUC 1st Vacc Total | Total of 1st vaccination Munich |
+| MUC 1st Vacc Day | 1st vaccination administered per day in Munich |
+| MUC 1st Vacc% | Percentage of poulation with 1st vaccine in Munich |
+| MUC 2nd Vacc Total | Total of 2nd vaccination Munich |
+| MUC 2nd Vacc Day | 2nd vaccination administered per day in Munich | Percentage of poulation with 2nd vaccine in Munich |
 | MUC 2nd Vacc% |
-| MUC 3rd Vacc Total |
-| MUC 3rd Vacc Day |
-| MUC 3rd Vacc% |
-| MUC 4th Vacc |
-| MUC 4th Vacc Day |
-| MUC 4th Vacc % |
-| LGL 7D Hospital |
-| Hospital Incidence |
-| LGL ICU |
-| IVENA Total |
-| % 7D SUM of IVENA |
-| YELLOW % |
-| RED % |
-| 7D DIFF TOTAL |
+| MUC 3rd Vacc Total | Total of 3rd vaccination Munich |
+| MUC 3rd Vacc Day | 3rd vaccination administered per day in Munich |
+| MUC 3rd Vacc% | Percentage of poulation with 3rd  vaccine in Munich |
+| MUC 4th Vacc Total | Total of 4th vaccination Munich |
+| MUC 4th Vacc Day | 4th vaccination administered per day in Munich |
+| MUC 4th Vacc % | Percentage of poulation with  4th vaccine in Munich |
+| LGL 7D Hospital | 7 day sum of new hospitalisations in Bavaria |
+| Hospital Incidence | 7 day incidence of new hospitalisation in Bavaria |
+| LGL ICU | Daily # of ICU beds with COVID patients in Bavaria |
+| IVENA Total | Total occpupied hospital beds with COVID patients in Bavaria |
+| % 7D SUM of IVENA | 7 day sum in relation to total beds (%) |
+| YELLOW % | Old yellow traffic light (max 1200 7 day sum) |
+| RED % | Old red traffic light (max 600 ICU beds in total) |
+| 7D DIFF TOTAL | Difference total compared to week before |
 
