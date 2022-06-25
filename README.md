@@ -1,6 +1,10 @@
 # MUCNumbers
 
-Collected Munich Corona numbers from 2020-02-28 until today. Updated daily. 
+Collected Munich Corona numbers from 2020-02-28 until today. Updated daily.
+
+### License
+
+**Creative Commons Zero v1.0 Universal**
 
 ### Sources
 
