@@ -42,7 +42,7 @@ At around 15:00 CET all updates should be added and the export is run. The new f
 | --- | --- |
 | Date | Date |
 | Day | Readable date |
-| MUC Total | Total cases based on numbers from the City of Munich |
+| MUC Total | Total cases based on numbers from the City of Munich, switched 2022-06-10 to RKI Total |
 | Active Cases | Current active cases |
 | MUC Recovered | Total sum of recovered people |
 | Deaths (sum) | Total number of deaths |
