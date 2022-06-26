@@ -43,7 +43,7 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | 2022-06-13 | City no longer reports own numbers, only RKI numbers. No more numbers on Active Cases, recovered, corrections. So it has become impossible to calculate a 7 day incidence with the city numbers. |
 | 2022-06-21 | Added more 7d hospital numbers from RKI |
 | 2022-06-22 | Unexplained big changes in vaccination numbers Bavaria |
-
+| 2022-06-25 | Changed Naive R4 column to Naive R(t) with new formula to estimate R(t) |
 ### Columns in the CSV File
 
 | COLUMN | DESCRIPTION |
