@@ -77,7 +77,7 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | IMC | # of intermediate medical care beds with COVID patients in Munich |
 | Diff 7 Day Incidence | Difference between Munich and RKI 7 day incidence (no more updates since 2022-06-10) |
 | Naive R7 | Total cases of last 7 days divided by total of 7 days before |
-| Naive R4 | Total cases of last 4 days divided by total of 4 days before |
+| Naive R(t) | Mean average of R7 over the last 7 days |
 | Diff 7D DoD | Change of 7 day sum compared to day before (%) |
 | Diff 7D WoW | Change of 7 day sum compared to week before (%) |
 | Var Lab WoW | Difference in PCR Tests compared to week before |
