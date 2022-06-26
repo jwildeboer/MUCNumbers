@@ -8,7 +8,7 @@ Collected Munich Corona numbers from 2020-02-28 until today. Updated daily.
 
 ### History
 
-The Pages file was originally created by [Georg Zoche](https://twitter.com/georgzoche). He shared it with me in June 2020, so I could try some more things I wanted to do with the numbers. Since then I have more or less completely changed the file to its current state by adding a lot of new columns, data, formulas and graphs. I have been sharing these graphs on Twitter since July 2020 and continue to do so every day, now under the [@CoronaMUC](https://twitter.com/CoronaMUC) Twitter account. The Pages file is freely (CC0 licensed) available at [this page](https://www.icloud.com/numbers/0tPTegqlj4Q2SZ7PysUbTt-gQ#MUCNumbersCorona), which also offers export as Excel file and other formats.
+The Numbers file was originally created by [Georg Zoche](https://twitter.com/georgzoche). He shared it with me in June 2020, so I could try some more things I wanted to do with the numbers. Since then I have more or less completely changed the file to its current state by adding a lot of new columns, data, formulas and graphs. I have been sharing these graphs on Twitter since July 2020 and continue to do so every day, now under the [@CoronaMUC](https://twitter.com/CoronaMUC) Twitter account. The Numbers file is freely (CC0 licensed) available at [this page](https://www.icloud.com/numbers/0tPTegqlj4Q2SZ7PysUbTt-gQ#MUCNumbersCorona), which also offers export as Excel file and other formats.
 
 ### Sources
 
