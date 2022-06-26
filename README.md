@@ -15,7 +15,7 @@ The Numbers file was originally created by [Georg Zoche](https://twitter.com/geo
 These numbers are sourced from
 
 - RKI
-  - [Source 1 for recovered numbers](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/45258e51f57d43efb612f700a876ae8f_0/explore?filters=eyJMYW5ka3JlaXMiOlsiU0sgTfxuY2hlbiJdfQ%3D%3D) Updated daily in the morning
+  - [Source 1 for recovered numbers](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/45258e51f57d43efb612f700a876ae8f_0/explore?filters=eyJMYW5ka3JlaXMiOlsiU0sgTfxuY2hlbiJdfQ%3D%3D) Updated daily in the morning. Only contains rows for days with new cases. So I have to manually add empty rows for 2020-02-29, 2020-03-01, 2020-03-07, 2020-03-08, 2020-06-01, 2020-12-25, 2022-06-11 every time.
   - [Source 2 for total case numbers](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/6d78eb3b86ad4466a8e264aa2e32a2e4_0/explore?filters=eyJCdW5kZXNsYW5kSWQiOls5LDldLCJBZG1Vbml0SWQiOls5MTYyLDkxNjJdfQ%3D%3D) Updated daily in the morning
   - [Source 3 for vaccination numbers](https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland) Updated monday-saturday around 10:00 in the morning
 - [LGL](https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm#) for hospital and test numbers - updated daily 8:00 for new 7 day sum of hospitalisation and ICU, monday-friday 14:00 for total bed numbers
