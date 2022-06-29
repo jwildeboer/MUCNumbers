@@ -30,21 +30,21 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 
 | DATE | CHANGE |
 | --- | --- |
-| 2020-06-01 | LGL added daily test numbers |
-| 2020-09-30 | City of Munich adds hospital numbers |
-| 2020-12-27 | LGL adds vaccination numbers |
-| 2021-01-09 | City of Munich adds vaccination numbers |
-| 2021-08-31 | LGL adds hospital numbers |
-| 2022-04-10 | City of Munich adds 4th vaccination |
-| 2022-04-28 | RKI changed method of counting for vaccinations, shifting numbers from first to 2nd/3rd vaccination. RKI also added data on 4th vaccination |
-| 2022-04-29 | LGL no longer reports numbers to RKI on weekend and bank holidays.  |
-| 2022-05-01 | RKI no longer offers granular data in their excel sheet, only total sums of vaccinations |
-| 2022-05-02 | LGL no longer offers daily test numbers, only weekly updates on Thursday |
-| 2022-06-13 | City no longer reports own numbers, only RKI numbers. No more numbers on Active Cases, recovered, corrections. So it has become impossible to calculate a 7 day incidence with the city numbers. |
-| 2022-06-21 | Added more 7d hospital numbers from RKI |
-| 2022-06-22 | By adding quarterly numbers of health insurances, a big jump in vaccination numbers |
-| 2022-06-25 | Changed Naive R4 column to Naive R(t) with new formula to estimate R(t) |
 | 2022-06-29 | New column and graph with ratio of ICU on total hospital beds |
+| 2022-06-25 | Changed Naive R4 column to Naive R(t) with new formula to estimate R(t) |
+| 2022-06-22 | By adding quarterly numbers of health insurances, a big jump in vaccination numbers |
+| 2022-06-21 | Added more 7d hospital numbers from RKI |
+| 2022-06-13 | City no longer reports own numbers, only RKI numbers. No more numbers on Active Cases, recovered, corrections. So it has become impossible to calculate a 7 day incidence with the city numbers. |
+| 2022-05-02 | LGL no longer offers daily test numbers, only weekly updates on Thursday |
+| 2022-05-01 | RKI no longer offers granular data in their excel sheet, only total sums of vaccinations |
+| 2022-04-29 | LGL no longer reports numbers to RKI on weekend and bank holidays.  |
+| 2022-04-28 | RKI changed method of counting for vaccinations, shifting numbers from first to 2nd/3rd vaccination. RKI also added data on 4th vaccination |
+| 2022-04-10 | City of Munich adds 4th vaccination |
+| 2021-08-31 | LGL adds hospital numbers |
+| 2021-01-09 | City of Munich adds vaccination numbers |
+| 2020-12-27 | LGL adds vaccination numbers |
+| 2020-09-30 | City of Munich adds hospital numbers |
+| 2020-06-01 | LGL added daily test numbers |
 
 ### Columns in the CSV File
 
