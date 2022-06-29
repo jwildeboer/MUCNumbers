@@ -44,6 +44,8 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | 2022-06-21 | Added more 7d hospital numbers from RKI |
 | 2022-06-22 | By adding quarterly numbers of health insurances, a big jump in vaccination numbers |
 | 2022-06-25 | Changed Naive R4 column to Naive R(t) with new formula to estimate R(t) |
+| 2022-06-29 | New column and graph with ratio of ICU on total hospital beds |
+
 ### Columns in the CSV File
 
 | COLUMN | DESCRIPTION |
@@ -126,4 +128,5 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | YELLOW % | Old yellow traffic light (max 1200 7 day sum) |
 | RED % | Old red traffic light (max 600 ICU beds in total) |
 | 7D DIFF TOTAL | Difference total compared to week before |
+| ICU to Total % | COVID positive ICU beds compared to total hospital beds with COVID positive patients |
 
