@@ -30,6 +30,7 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 
 | DATE | CHANGE |
 | --- | --- |
+| 2022-07-03 | Added new column LGL 7D CORR with corrected 7 day hospitalisation numbers from RKI |
 | 2022-07-01 | New formula for a better R(t) 4 days and R(t) 7 days |
 | 2022-06-29 | New column and graph with ratio of ICU on total hospital beds |
 | 2022-06-25 | Changed Naive R4 column to Naive R(t) with new formula to estimate R(t) |
@@ -130,4 +131,4 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | RED % | Old red traffic light (max 600 ICU beds in total) |
 | 7D DIFF TOTAL | Difference total compared to week before |
 | ICU to Total % | COVID positive ICU beds compared to total hospital beds with COVID positive patients |
-
+| LGL 7D CORR | corrected 7 day hospitalisation numbers from RKI |
