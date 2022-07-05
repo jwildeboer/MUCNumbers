@@ -134,4 +134,4 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | 7D DIFF TOTAL | Difference total compared to week before |
 | ICU to Total % | COVID positive ICU beds compared to total hospital beds with COVID positive patients |
 | LGL 7D CORR | corrected 7 day hospitalisation numbers from RKI |
-| Hosp 7D Inc Corr | corrected 7 day hospitalisation index |
+| Hosp 7D Inc Corr | corrected 7 day hospitalisation incidence |
