@@ -4,7 +4,7 @@ Collected Munich Corona numbers from 2020-02-28 until today. Updated daily.
 
 ### TODO
 
-[ ] Get Munich numbers updated
+- [ ] Get Munich numbers updated
 
 ### License
 
