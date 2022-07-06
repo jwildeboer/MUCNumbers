@@ -31,6 +31,7 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 
 | DATE | CHANGE |
 | --- | --- |
+| 2022-07-06 | Added new column R(t) with LMU number |
 | 2022-07-04 | Added new column with corrected 7D Hospitalisation incidence |
 | 2022-07-03 | Added new column LGL 7D CORR with corrected 7 day hospitalisation numbers from RKI |
 | 2022-07-01 | New formula for a better R(t) 4 days and R(t) 7 days |
@@ -135,3 +136,4 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | ICU to Total % | COVID positive ICU beds compared to total hospital beds with COVID positive patients |
 | LGL 7D CORR | corrected 7 day hospitalisation numbers from RKI |
 | Hosp 7D Inc Corr | corrected 7 day hospitalisation incidence |
+| R(t) LMU | Reproduction number R(t) for Munich from LMU StaBLab |
