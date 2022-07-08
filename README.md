@@ -2,9 +2,9 @@
 
 Collected Munich Corona numbers from 2020-02-28 until today. Updated daily.
 
-### TODO
+### DOI
 
-- [ ] Get Munich numbers updated
+[![DOI](https://zenodo.org/badge/507026399.svg)](https://zenodo.org/badge/latestdoi/507026399)
 
 ### License
 
