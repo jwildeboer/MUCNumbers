@@ -35,6 +35,7 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 
 | DATE | CHANGE |
 | --- | --- |
+| 2022-07-12 | New columns New Hosp Day BAV, New Hosp Nowcast, Diff Hosp % |
 | 2022-07-06 | Added new column R(t) with LMU number |
 | 2022-07-04 | Added new column with corrected 7D Hospitalisation incidence |
 | 2022-07-03 | Added new column LGL 7D CORR with corrected 7 day hospitalisation numbers from RKI |
@@ -141,3 +142,6 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | LGL 7D CORR | corrected 7 day hospitalisation numbers from RKI |
 | Hosp 7D Inc Corr | corrected 7 day hospitalisation incidence |
 | R(t) LMU | Reproduction number R(t) for Munich from LMU StaBLab |
+| New Hosp Day BAV | Daily new hospitalistions in Bavaria from LMU StaBLab |
+| New Hosp Nowcast | Nowcast for Daily new hospitalistions in Bavaria from LMU StaBLab |
+| Diff Hosp % | % diff between daily new hospitalisations and nowcast |
