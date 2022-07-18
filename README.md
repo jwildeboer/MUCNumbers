@@ -1,6 +1,6 @@
 # MUCNumbers
 
-Collected Munich Corona numbers from 2020-02-28 until today. Updated daily.
+Collected Munich and Bavaria Corona numbers from 2020-02-28 until today. Updated daily.
 
 ### DOI
 
