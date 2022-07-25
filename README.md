@@ -85,8 +85,8 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 | Daily Test BY Pos | # of positive tests in Bavaria, daily |
 | Daily test avg 7 days | 7 day average pf daily PCR tests in Bavaria |
 | Beds | # of hospital beds with COVID patients in Munich |
-| ICU | # of intensive care beds with COVID patients in Munich |
 | IMC | # of intermediate medical care beds with COVID patients in Munich |
+| ICU | # of intensive care beds with COVID patients in Munich |
 | Diff 7 Day Incidence | Difference between Munich and RKI 7 day incidence (no more updates since 2022-06-10) |
 | Naive R(t) 4D | Total cases of last 4 days divided by total of 4 days before |
 | Naive R(t) 7D | Total cases of last 7 days divided by total of 7 days before moved by 3 days |
