@@ -35,6 +35,9 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 
 | DATE | CHANGE |
 | --- | --- |
+| 2023-03-06 | City of Munich stops publishing hospitalisation numbers |
+| 2022-12-28 | City of Munich stops publishing vaccination numbers |
+| 2022-12-16 | No more internal case numbers from City of Munich |
 | 2022-07-12 | New columns New Hosp Day BAV, New Hosp Nowcast, Diff Hosp % |
 | 2022-07-06 | Added new column R(t) with LMU number |
 | 2022-07-04 | Added new column with corrected 7D Hospitalisation incidence |
