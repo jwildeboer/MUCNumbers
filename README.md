@@ -35,6 +35,8 @@ At around 15:00 CET (earlier on weekends) all updates should be added and the ex
 
 | DATE | CHANGE |
 | --- | --- |
+| 2023-04-08 | RKI stops publishing daily vaccination numbers |
+| 2023-04-01 | LGL stops publishing IVENA number of total hospital beds |
 | 2023-03-06 | City of Munich stops publishing hospitalisation numbers |
 | 2022-12-28 | City of Munich stops publishing vaccination numbers |
 | 2022-12-16 | No more internal case numbers from City of Munich |
