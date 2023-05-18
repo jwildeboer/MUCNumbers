@@ -1,0 +1,24 @@
+{
+  "Options": [
+    {
+      "Name": "instance",
+      "Value": "https://social.wildeboer.net"
+    },
+    {
+      "Name": "id",
+      "Value": "bvT21SnyPmweWjtM5PPhq11MHEEt885XvSTSxtXJRXs"
+    },
+    {
+      "Name": "secret",
+      "Value": "x1le726IcigIyEteccoODxUdsJOP1iC7zP-ezD2Xw7A"
+    },
+    {
+      "Name": "redirectURI",
+      "Value": "urn:ietf:wg:oauth:2.0:oob"
+    },
+    {
+      "Name": "token",
+      "Value": "VSSCIeCFA5MkRNT3ih66pT4oK5mwCl9MugpUaYaz-to"
+    }
+  ]
+}
